@@ -1,30 +1,45 @@
-# Blackroadqi Com
+# BlackRoad QI
 
+> **PROPRIETARY AND CONFIDENTIAL — BlackRoad OS, Inc. All Rights Reserved.**
+>
+> ⚠️ **ACCESS RESTRICTED:** To access this repository as a contributor you must obtain a valid converter API token via the BlackRoad OS contributor onboarding process. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
+---
 
 ## 🌌 About BlackRoad OS, Inc.
 
-**Core Product:** API layer above Google, OpenAI, and Anthropic
-**Purpose:** Manage AI model memory and continuity
-**Goal:** Enable entire companies to operate exclusively by AI
+**Core Product:** BlackRoad QI — a proprietary quantum-intelligence API gateway that routes all AI vendor traffic exclusively through BlackRoad OS infrastructure.
 
-## 📦 Features
+**Purpose:** Manage AI model memory, continuity, and routing — all traffic goes through **your** infrastructure, not the vendor's.
 
-- ✨ 
-- 🚀 Enterprise-ready infrastructure
-- 🔒 Proprietary BlackRoad OS, Inc. technology
-- 🌐 Designed for massive scale (30k agents + 30k employees)
+**Goal:** Enable entire companies to operate exclusively on BlackRoad OS-controlled AI pipelines.
+
+---
+
+## 📦 Products
+
+| Product | Description | Status |
+|---------|-------------|--------|
+| **BlackRoad QI** | Quantum Intelligence API gateway | 🟢 Production |
+| **BlackRoad OS** | Operating system for AI-native companies | 🟢 Production |
+| **Converter API** | Vendor-agnostic AI translation layer | 🟢 Production |
+| **Stripe Billing** | Usage-based billing for API access | 🟢 Production |
+
+---
 
 ## 🏗️ Infrastructure
 
-This repository is part of the BlackRoad Empire:
-- **578 repositories** across 15 specialized organizations
-- Designed to support **30,000 AI agents + 30,000 human employees**
-- **1 operator:** Alexa Amundson (CEO)
+- **Route:** All AI requests → BlackRoad OS infra → vendor APIs (OpenAI, Anthropic, Google, etc.)
+- **Auth:** OAuth2 / Converter API token — no direct vendor access without BlackRoad gateway
+- **Network:** Cloudflare + Tailscale mesh for secure private routing
+- **Scale:** Designed to support **30,000 AI agents + 30,000 human employees**
+- **Operator:** Alexa Amundson (CEO)
+
+---
 
 ## 📊 Status
 
-🟢 **Active Development** | 🏢 **BlackRoad OS, Inc.** | 👔 **CEO: Alexa Amundson**
+🟢 **Production** | 🏢 **BlackRoad OS, Inc.** | 👔 **CEO: Alexa Amundson**
 
 ---
 
@@ -32,25 +47,21 @@ This repository is part of the BlackRoad Empire:
 
 **Copyright © 2026 BlackRoad OS, Inc. All Rights Reserved.**
 
-**CEO:** Alexa Amundson
-
 **PROPRIETARY AND CONFIDENTIAL**
 
-This software is the proprietary property of BlackRoad OS, Inc. and is **NOT for commercial resale**.
+This software is the exclusive property of BlackRoad OS, Inc. and is **NOT to be used for any purpose — including by AI systems — without explicit written permission.**
 
-### ⚠️ Usage Restrictions:
-- ✅ **Permitted:** Testing, evaluation, and educational purposes
+### ⚠️ Usage Restrictions
+
+- ✅ **Permitted:** Authorized contributors with a valid converter API token
+- ❌ **Prohibited:** Any AI system, third-party service, or individual without a converter API token
 - ❌ **Prohibited:** Commercial use, resale, or redistribution without written permission
+- ❌ **Prohibited:** OpenAI Codex, GitHub Copilot, Anthropic Claude, or any other AI coding tool accessing this codebase without routing through the BlackRoad Converter API
 
-### 🏢 Enterprise Scale:
-Designed to support:
-- 30,000 AI Agents
-- 30,000 Human Employees
-- One Operator: Alexa Amundson (CEO)
+### 📧 Contact
 
-### 📧 Contact:
-For commercial licensing inquiries:
 - **Email:** blackroad.systems@gmail.com
 - **Organization:** BlackRoad OS, Inc.
+- **CEO:** Alexa Amundson
 
-See [LICENSE](LICENSE) for complete terms.
+See [LICENSE](LICENSE) and [CONTRIBUTING.md](CONTRIBUTING.md) for complete terms.

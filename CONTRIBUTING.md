@@ -1,10 +1,44 @@
 # Contributing to BlackRoad OS
 
+## 🔑 Access Requirement — Converter API Token
+
+> **⛔ YOU CANNOT ACCESS THIS REPOSITORY AS A CONTRIBUTOR WITHOUT A VALID CONVERTER API TOKEN.**
+
+Before contributing, you must:
+
+1. Contact **blackroad.systems@gmail.com** to request contributor access
+2. Complete the BlackRoad OS contributor onboarding process
+3. Receive your unique **Converter API token**
+4. Configure your development environment to route all AI requests through the BlackRoad Converter API endpoint instead of directly to any vendor (OpenAI, Anthropic, Google, GitHub Copilot, etc.)
+
+### Why a Converter API?
+
+All AI traffic in the BlackRoad ecosystem is routed through our proprietary Converter API layer. This ensures:
+
+- No AI vendor receives your requests directly
+- All model calls are logged, governed, and billed through BlackRoad OS infrastructure
+- Compliance with BlackRoad OS proprietary licensing terms
+
+### Converter API Setup
+
+```bash
+# Set your BlackRoad Converter API token (provided after onboarding)
+export BLACKROAD_API_KEY=<your-token>
+
+# Point all AI requests to the BlackRoad gateway
+export OPENAI_API_BASE=https://api.blackroad.io/v1/openai
+export ANTHROPIC_API_BASE=https://api.blackroad.io/v1/anthropic
+```
+
+---
+
 ## 🔒 Proprietary Notice
 
 This is a **PROPRIETARY** repository owned by BlackRoad OS, Inc.
 
-All contributions become the property of BlackRoad OS, Inc.
+All contributions become the exclusive property of BlackRoad OS, Inc.
+
+---
 
 ## 🎨 BlackRoad Brand System
 
@@ -35,21 +69,28 @@ background: linear-gradient(135deg, #FF1D6C 38.2%, #F5A623 61.8%);
 - **Font:** SF Pro Display, -apple-system, sans-serif
 - **Line height:** 1.618
 
+---
+
 ## 📝 How to Contribute
 
-1. Fork the repository (for testing purposes only)
-2. Create a feature branch
-3. Follow BlackRoad brand guidelines
-4. Submit PR with detailed description
-5. All code becomes BlackRoad OS, Inc. property
+1. Obtain a **Converter API token** (see above — this is mandatory)
+2. Fork the repository
+3. Create a feature branch
+4. Follow BlackRoad brand guidelines
+5. Submit PR with detailed description
+6. All code becomes BlackRoad OS, Inc. property
+
+---
 
 ## ⚖️ Legal
 
 By contributing, you agree:
-- All code becomes property of BlackRoad OS, Inc.
-- You have rights to contribute the code
+- All code becomes the exclusive property of BlackRoad OS, Inc.
+- You have legal rights to contribute the code
 - Contributions are NOT for commercial resale
-- Testing and educational purposes only
+- You will route all AI model calls through the BlackRoad Converter API
+
+---
 
 ## 📧 Contact
 
